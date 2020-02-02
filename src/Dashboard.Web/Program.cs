@@ -17,7 +17,7 @@ namespace Dashboard.Web
             {
                 var host = CreateHostBuilder(args).Build();
 
-                DemoSeeder.SeedAsync(host.Services).Wait();
+                //DemoSeeder.SeedAsync(host.Services).Wait();
                 host.Run();
             }
             catch (Exception ex)
