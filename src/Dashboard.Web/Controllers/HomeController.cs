@@ -9,7 +9,7 @@ namespace Dashboard.Web.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return Ok("HASDASDASD");
+            return Redirect("/swagger");
         }
     }
 }
